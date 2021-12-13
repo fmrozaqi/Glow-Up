@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+/* .convex::after {
+  border-radius: 10% / 50%;
+  left: -10%;
+  position: fixed;
+  top: 0;
+  right: -10%;
+}
+
+.convex::before {
+  border-radius: 50% / 10%;
+  top: -10%;
+  position: fixed;
+  left: 0;
+  bottom: -10%;
+} */
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #48bb78;
+}
